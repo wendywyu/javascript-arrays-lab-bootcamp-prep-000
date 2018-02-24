@@ -9,4 +9,5 @@ function destructivelyAppendKitten(array) {
 
 function destructivelyPrependKitten(array) {
   array.unshift()
+  return array
 }
