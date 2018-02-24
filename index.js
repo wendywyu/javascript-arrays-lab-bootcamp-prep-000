@@ -4,5 +4,5 @@ var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(array, element) {
   array.shift(element)
-  return array
+  return array.shift
 }
