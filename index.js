@@ -7,12 +7,12 @@ function destructivelyAppendKitten(name) {
   return kittens
 }
 
-function destructivelyPrependKitten(array, element) {
-  array.unshift(element)
-  return array
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name)
+  return kittens
 }
 
-function destructivelyRemoveLastKitten(array, element) {
-  array.slice(element)
-  return array
+function destructivelyRemoveLastKitten(name) {
+  kittens.slice(name)
+  return kittens
 }
